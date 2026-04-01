@@ -1,0 +1,30 @@
+## [ Visual Studio / Rider / .NET ] ##
+# Pastas de compilação (Arquivos binários)
+[Bb]in/
+[Oo]bj/
+
+# Arquivos da IDE (JetBrains Rider / IntelliJ)
+.idea/
+*.sln.DotSettings.user
+
+# Arquivos da IDE (Visual Studio)
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Banco de Dados SQLite (Evite subir o arquivo de dados local para o Git)
+*.db
+*.db-shm
+*.db-wal
+
+
+# Ferramentas e pacotes
+.cloudcode/
+.vscode/
+node_modules/
+publish/
+
+# Sistema Operacional
+Thumbs.db
+.DS_Store
